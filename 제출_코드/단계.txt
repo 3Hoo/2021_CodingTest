@@ -1,0 +1,86 @@
+[ 12 / 22 ]
+1)
+memo.txt
+2)
+preprocess/data_anaylize/preprocess_for_analyze.py
+3)
+preprocess/data_anaylize/check_covariance.py
+4)
+preprocess/data_anaylize/1222_*
+preprocess/data_anaylize/cor_and_pValue_analysis.png
+5)
+preprocess/preprocess.py
+6)
+main/data_manager.py
+
+[ 12 / 23 ]
+1)
+main/model.py => LSTM Attention
+2)
+main/loss.py
+3)
+main/1222_train.py
+main/utils.py
+4)
+main/1222_train.sh
+
+[ 12 / 24 ]
+0)
+23일에 만든 model의 output이 항상 0으로만 출력되는 문제로 인해 새로운 모델 제작
+1)
+main/model.py => Dual Stage Attention Based RNN 추가
+2)
+main/data_manager.py => sample_train_data_DSA, train_data_loader_DSA 추가
+3)
+main/1224_train.py
+4)
+main/data_manager.py => sample_test_data_DSA, test_data_loader_DSA 추가
+5)
+main/test/calculate.py
+main/test/calculate.sh
+6)
+attention base의 훈련 속도가 너무 느림 => 1.simple CNN으로 시도  2.time_step을 100에서 30으로 감소
+7)
+preprocess/preprocess_img.py
+8)
+main/model.py => Simple CNN Base Model 추가
+9)
+main/data_manager.py => sample_train_data, train_data_loader가 img data도 로드할 수 있도록 변경
+10)
+main/1224(2)_train_img.py
+
+[ 12 / 25 ]
+0)
+cnn 버전과 attention base(DSA)이 버전이 다른 data loader를 사용하는 관계로
+calculate.py를 calculate_cnn.py과 calculate_attention.py 로,
+plot.py를 plot_cnn.py 와 plot_attention.py로 분리.
+args로 모델 타입을 받아 분기문으로 data loader를 다르게 사용할 수도 있지만
+코드가 너무 길어지고 가독성이 떨어지는 것 같아 파일을 분리하기로 결정
+1)
+CNN epoch 마다 error 계산 (calculate.sh 이용) => main/test/test_logs/1225_CNN_cal.txt, main/test/test_logs/json/result_CNN.json
+2)
+main/test/plot_cnn.py   => main/test/plots/CNN/*.png
+3)
+main/test/calculate_attention.py
+main/test/plot_attention.py
+4)
+main/model.py => 마지막 모델인 Transformer Base 추가 => 구조 이해도 부족으로 regression 작업으로 변경 실패 (model_deprecated.py 로 이동)
+
+[ 12 / 26 ]
+0)
+어제 성공하지 못한 Transformer Base regression 재시도. 
+이번엔 직접 모두 구현하기 보다는 torch.nn 에서 제공하는 Transformer를 이용해보자
+1)
+main/model.py => Transformer Encoder base Regression Model 추가
+2)
+main/data_manager.py => sample_train_data_TF, train_data_loader_TF 추가
+3)
+main/1226_train_tf.py
+4)
+main/test/extract_loss.py
+5)
+main/test/calculate_tf.py
+main/test/plot_tf.py
+6)
+Transformer Encoder base Regression Model 에서 val loss가 재상승하는 구간이 발견되어 약간의 변경 시도
+main/model.py => Transformer with CNN Model 추가

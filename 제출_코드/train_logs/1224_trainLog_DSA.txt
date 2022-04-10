@@ -1,0 +1,127 @@
+EPOCH :      0      LearningRate
+
+TRAIN :  dX_loss : 343.65 / dY_loss : 1258.8125 / dX_err : 343.65 / dY_err : 1258.8125 / total_loss : 1602.4624 /  
+DEV:  dX_loss : 359.5681 / dY_loss : 1240.8606 / dX_err : 359.5681 / dY_err : 1240.8606 / total_loss : 1600.4287 /  
+.....................
+EPOCH :      1      LearningRate
+
+TRAIN :  dX_loss : 343.2514 / dY_loss : 1257.4849 / dX_err : 343.2514 / dY_err : 1257.4849 / total_loss : 1600.7364 /  
+DEV:  dX_loss : 359.1754 / dY_loss : 1239.5481 / dX_err : 359.1754 / dY_err : 1239.5481 / total_loss : 1598.7235 /  
+.....................
+EPOCH :      2      LearningRate
+
+TRAIN :  dX_loss : 342.7839 / dY_loss : 1255.9003 / dX_err : 342.7839 / dY_err : 1255.9003 / total_loss : 1598.6842 /  
+DEV:  dX_loss : 358.571 / dY_loss : 1237.5636 / dX_err : 358.571 / dY_err : 1237.5636 / total_loss : 1596.1346 /  
+.....................
+EPOCH :      3      LearningRate
+
+TRAIN :  dX_loss : 342.0694 / dY_loss : 1253.5066 / dX_err : 342.0694 / dY_err : 1253.5066 / total_loss : 1595.576 /  
+DEV:  dX_loss : 357.7307 / dY_loss : 1234.85 / dX_err : 357.7307 / dY_err : 1234.85 / total_loss : 1592.5807 /  
+.....................
+EPOCH :      4      LearningRate
+
+TRAIN :  dX_loss : 341.1624 / dY_loss : 1250.5376 / dX_err : 341.1624 / dY_err : 1250.5376 / total_loss : 1591.6999 /  
+DEV:  dX_loss : 356.7246 / dY_loss : 1231.6771 / dX_err : 356.7246 / dY_err : 1231.6771 / total_loss : 1588.4017 /  
+.....................
+EPOCH :      5      LearningRate
+
+TRAIN :  dX_loss : 340.104 / dY_loss : 1247.1715 / dX_err : 340.104 / dY_err : 1247.1715 / total_loss : 1587.2755 /  
+DEV:  dX_loss : 355.5773 / dY_loss : 1228.168 / dX_err : 355.5773 / dY_err : 1228.168 / total_loss : 1583.7453 /  
+.....................
+EPOCH :      6      LearningRate
+
+TRAIN :  dX_loss : 338.9111 / dY_loss : 1243.5056 / dX_err : 338.9111 / dY_err : 1243.5056 / total_loss : 1582.4167 /  
+DEV:  dX_loss : 354.2993 / dY_loss : 1224.3975 / dX_err : 354.2993 / dY_err : 1224.3975 / total_loss : 1578.6968 /  
+.....................
+EPOCH :      7      LearningRate
+
+TRAIN :  dX_loss : 337.5831 / dY_loss : 1239.5698 / dX_err : 337.5831 / dY_err : 1239.5698 / total_loss : 1577.1529 /  
+DEV:  dX_loss : 352.8775 / dY_loss : 1220.3525 / dX_err : 352.8775 / dY_err : 1220.3525 / total_loss : 1573.2301 /  
+.....................
+EPOCH :      8      LearningRate
+
+TRAIN :  dX_loss : 336.1121 / dY_loss : 1235.3533 / dX_err : 336.1121 / dY_err : 1235.3533 / total_loss : 1571.4655 /  
+DEV:  dX_loss : 351.3166 / dY_loss : 1216.0549 / dX_err : 351.3166 / dY_err : 1216.0549 / total_loss : 1567.3715 /  
+.....................
+EPOCH :      9      LearningRate
+
+TRAIN :  dX_loss : 334.5106 / dY_loss : 1230.8934 / dX_err : 334.5106 / dY_err : 1230.8934 / total_loss : 1565.404 /  
+DEV:  dX_loss : 349.6264 / dY_loss : 1211.5333 / dX_err : 349.6264 / dY_err : 1211.5333 / total_loss : 1561.1597 /  
+.....................
+EPOCH :      10      LearningRate
+
+TRAIN :  dX_loss : 332.7842 / dY_loss : 1226.1974 / dX_err : 332.7842 / dY_err : 1226.1974 / total_loss : 1558.9816 /  
+DEV:  dX_loss : 347.8084 / dY_loss : 1206.7803 / dX_err : 347.8084 / dY_err : 1206.7803 / total_loss : 1554.5887 /  
+.....................
+EPOCH :      11      LearningRate
+
+TRAIN :  dX_loss : 330.9334 / dY_loss : 1221.249 / dX_err : 330.9334 / dY_err : 1221.249 / total_loss : 1552.1824 /  
+DEV:  dX_loss : 345.8592 / dY_loss : 1201.7653 / dX_err : 345.8592 / dY_err : 1201.7653 / total_loss : 1547.6245 /  
+.....................
+EPOCH :      12      LearningRate
+
+TRAIN :  dX_loss : 328.9484 / dY_loss : 1215.9914 / dX_err : 328.9484 / dY_err : 1215.9914 / total_loss : 1544.9398 /  
+DEV:  dX_loss : 343.7618 / dY_loss : 1196.407 / dX_err : 343.7618 / dY_err : 1196.407 / total_loss : 1540.1688 /  
+.....................
+EPOCH :      13      LearningRate
+
+TRAIN :  dX_loss : 326.8186 / dY_loss : 1210.3633 / dX_err : 326.8186 / dY_err : 1210.3633 / total_loss : 1537.182 /  
+DEV:  dX_loss : 341.5171 / dY_loss : 1190.6776 / dX_err : 341.5171 / dY_err : 1190.6776 / total_loss : 1532.1947 /  
+.....................
+EPOCH :      14      LearningRate
+
+TRAIN :  dX_loss : 324.5511 / dY_loss : 1204.3569 / dX_err : 324.5511 / dY_err : 1204.3569 / total_loss : 1528.9081 /  
+DEV:  dX_loss : 339.1319 / dY_loss : 1184.5709 / dX_err : 339.1319 / dY_err : 1184.5709 / total_loss : 1523.7028 /  
+.....................
+EPOCH :      15      LearningRate
+
+TRAIN :  dX_loss : 322.1466 / dY_loss : 1197.9558 / dX_err : 322.1466 / dY_err : 1197.9558 / total_loss : 1520.1024 /  
+DEV:  dX_loss : 336.5996 / dY_loss : 1178.0537 / dX_err : 336.5996 / dY_err : 1178.0537 / total_loss : 1514.6533 /  
+.....................
+EPOCH :      16      LearningRate
+
+TRAIN :  dX_loss : 319.5906 / dY_loss : 1191.1142 / dX_err : 319.5906 / dY_err : 1191.1142 / total_loss : 1510.7048 /  
+DEV:  dX_loss : 333.9027 / dY_loss : 1171.0844 / dX_err : 333.9027 / dY_err : 1171.0844 / total_loss : 1504.987 /  
+.....................
+EPOCH :      17      LearningRate
+
+TRAIN :  dX_loss : 316.8754 / dY_loss : 1183.8263 / dX_err : 316.8754 / dY_err : 1183.8263 / total_loss : 1500.7018 /  
+DEV:  dX_loss : 331.0443 / dY_loss : 1163.69 / dX_err : 331.0443 / dY_err : 1163.69 / total_loss : 1494.7342 /  
+.....................
+EPOCH :      18      LearningRate
+
+TRAIN :  dX_loss : 314.0076 / dY_loss : 1176.1248 / dX_err : 314.0076 / dY_err : 1176.1248 / total_loss : 1490.1323 /  
+DEV:  dX_loss : 328.0316 / dY_loss : 1155.9022 / dX_err : 328.0316 / dY_err : 1155.9022 / total_loss : 1483.9338 /  
+.....................
+EPOCH :      19      LearningRate
+
+TRAIN :  dX_loss : 310.9942 / dY_loss : 1168.0403 / dX_err : 310.9942 / dY_err : 1168.0403 / total_loss : 1479.0345 /  
+DEV:  dX_loss : 324.8725 / dY_loss : 1147.7522 / dX_err : 324.8725 / dY_err : 1147.7522 / total_loss : 1472.6247 /  
+.....................
+EPOCH :      20      LearningRate
+
+TRAIN :  dX_loss : 307.8442 / dY_loss : 1159.606 / dX_err : 307.8442 / dY_err : 1159.606 / total_loss : 1467.4503 /  
+DEV:  dX_loss : 321.5772 / dY_loss : 1139.2756 / dX_err : 321.5772 / dY_err : 1139.2756 / total_loss : 1460.8528 /  
+.....................
+EPOCH :      21      LearningRate
+
+TRAIN :  dX_loss : 304.5688 / dY_loss : 1150.8593 / dX_err : 304.5688 / dY_err : 1150.8593 / total_loss : 1455.4281 /  
+DEV:  dX_loss : 318.1576 / dY_loss : 1130.5115 / dX_err : 318.1576 / dY_err : 1130.5115 / total_loss : 1448.6691 /  
+.....................
+EPOCH :      22      LearningRate
+
+TRAIN :  dX_loss : 301.1806 / dY_loss : 1141.8402 / dX_err : 301.1806 / dY_err : 1141.8402 / total_loss : 1443.0208 /  
+DEV:  dX_loss : 314.6271 / dY_loss : 1121.5014 / dX_err : 314.6271 / dY_err : 1121.5014 / total_loss : 1436.1284 /  
+.....................
+EPOCH :      23      LearningRate
+
+TRAIN :  dX_loss : 297.6927 / dY_loss : 1132.5891 / dX_err : 297.6927 / dY_err : 1132.5891 / total_loss : 1430.2818 /  
+DEV:  dX_loss : 310.9985 / dY_loss : 1112.285 / dX_err : 310.9985 / dY_err : 1112.285 / total_loss : 1423.2835 /  
+.....................
+EPOCH :      24      LearningRate
+
+TRAIN :  dX_loss : 294.1172 / dY_loss : 1123.1417 / dX_err : 294.1172 / dY_err : 1123.1417 / total_loss : 1417.259 /  
+DEV:  dX_loss : 307.2838 / dY_loss : 1102.8945 / dX_err : 307.2838 / dY_err : 1102.8945 / total_loss : 1410.1783 /  
+.....................
+EPOCH :      25      LearningRate
+

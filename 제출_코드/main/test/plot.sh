@@ -1,0 +1,1 @@
+python3 -u plot_cnn.py --model_type=CNN --model_dir=../../models/model_1224_img/model_d/parm/1996.pt --plot_dir=plots/CNN
